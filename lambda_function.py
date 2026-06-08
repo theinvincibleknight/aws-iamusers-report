@@ -15,22 +15,22 @@ S3_BUCKET = 'aws-artifact-collector'
 # Account configurations with assume role ARNs
 ACCOUNTS = {
     'dev': {
-        'role_arn': 'arn:aws:iam::058264257786:role/inventory-readonly-role',
+        'role_arn': 'arn:aws:iam::111111111111:role/inventory-readonly-role',
     },
     'uat': {
-        'role_arn': 'arn:aws:iam::891377165721:role/inventory-readonly-role',
+        'role_arn': 'arn:aws:iam::222222222222:role/inventory-readonly-role',
     },
     'prod': {
-        'role_arn': 'arn:aws:iam::471112573018:role/inventory-readonly-role',
+        'role_arn': 'arn:aws:iam::333333333333:role/inventory-readonly-role',
     },
     'oldprod': {
-        'role_arn': 'arn:aws:iam::525872668219:role/inventory-readonly-role',
+        'role_arn': 'arn:aws:iam::444444444444:role/inventory-readonly-role',
     },
     'network': {
-        'role_arn': 'arn:aws:iam::851725433891:role/inventory-readonly-role',
+        'role_arn': 'arn:aws:iam::555555555555:role/inventory-readonly-role',
     },
     'sharedservice': {
-        'role_arn': 'arn:aws:iam::533267121800:role/inventory-readonly-role',
+        'role_arn': 'arn:aws:iam::666666666666:role/inventory-readonly-role',
     },
 }
 
